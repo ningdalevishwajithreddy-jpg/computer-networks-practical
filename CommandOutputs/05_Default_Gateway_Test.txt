@@ -1,0 +1,13 @@
+﻿COMMAND: $cfg = Get-NetIPConfiguration | Where-Object { $_.IPv4DefaultGateway -and $_.IPv4Address } | Select-Object -First 1; $gateway = $cfg.IPv4DefaultGateway.NextHop; "Default Gateway: $gateway"; ping -n 4 $gateway
+
+Default Gateway: 192.168.137.1
+
+Pinging 192.168.137.1 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.137.1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+

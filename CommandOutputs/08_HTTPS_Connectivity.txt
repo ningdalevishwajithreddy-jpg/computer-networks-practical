@@ -1,0 +1,26 @@
+﻿COMMAND: Test-NetConnection www.google.com -Port 443 -InformationLevel Detailed
+
+
+
+ComputerName            : www.google.com
+RemoteAddress           : 142.251.153.119
+RemotePort              : 443
+NameResolutionResults   : 142.251.153.119
+                          142.251.150.119
+                          142.251.157.119
+                          142.251.152.119
+                          142.251.155.119
+                          142.251.154.119
+                          142.251.151.119
+                          142.251.156.119
+MatchingIPsecRules      : 
+NetworkIsolationContext : Internet
+IsAdmin                 : False
+InterfaceAlias          : Wi-Fi
+SourceAddress           : 192.168.137.216
+NetRoute (NextHop)      : 192.168.137.1
+TcpTestSucceeded        : True
+
+
+
+

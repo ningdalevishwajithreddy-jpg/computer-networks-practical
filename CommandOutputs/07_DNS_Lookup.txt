@@ -1,0 +1,26 @@
+﻿COMMAND: nslookup google.com
+
+nslookup : Non-authoritative answer:
+At line:9 char:77
++ ... t'; Command = 'nslookup google.com'; Run = { nslookup google.com } },
++                                                  ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Non-authoritative answer::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Server:  DESKTOP-HNAABJT
+Address:  fe80::11cf:dcba:b936:77d5
+
+Name:    google.com
+Addresses:  2404:6800:4000:1025::71
+	  2404:6800:4000:1025::8b
+	  2404:6800:4000:1025::65
+	  2404:6800:4000:1025::8a
+	  192.178.211.102
+	  192.178.211.138
+	  192.178.211.101
+	  192.178.211.113
+	  192.178.211.139
+	  192.178.211.100
+
+

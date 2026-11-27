@@ -1,0 +1,10 @@
+﻿COMMAND: tracert -d -h 10 -w 1000 1.1.1.1
+
+
+Tracing route to 1.1.1.1 over a maximum of 10 hops
+
+  1     5 ms     *       18 ms  192.168.137.1 
+  2     *     192.168.137.1  reports: Destination net unreachable.
+
+Trace complete.
+

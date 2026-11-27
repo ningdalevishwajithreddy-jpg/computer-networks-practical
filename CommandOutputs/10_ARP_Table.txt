@@ -1,0 +1,15 @@
+﻿COMMAND: arp -a
+
+
+Interface: 192.168.137.216 --- 0xd
+  Internet Address      Physical Address      Type
+  192.168.137.1         9e-67-d6-e8-31-81     dynamic   
+  192.168.137.206       f4-4e-b4-d9-4a-ab     dynamic   
+  192.168.137.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+

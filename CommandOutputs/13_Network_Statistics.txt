@@ -1,0 +1,9 @@
+﻿COMMAND: Get-NetAdapterStatistics | Format-Table -AutoSize
+
+
+Name  ReceivedBytes ReceivedUnicastPackets SentBytes SentUnicastPackets
+----  ------------- ---------------------- --------- ------------------
+Wi-Fi      27483684                  32720  29783383              18486
+
+
+

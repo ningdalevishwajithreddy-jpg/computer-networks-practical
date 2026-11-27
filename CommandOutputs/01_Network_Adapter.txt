@@ -1,0 +1,10 @@
+﻿COMMAND: Get-NetAdapter | Format-Table -AutoSize Name, InterfaceDescription, Status, LinkSpeed, MacAddress
+
+
+Name       InterfaceDescription                           Status       LinkSpeed  MacAddress       
+----       --------------------                           ------       ---------  ----------       
+McAfee VPN TAP-Windows Adapter V9                         Disconnected 1 Gbps     00-FF-AB-99-E1-7E
+Wi-Fi      Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter Up           286.5 Mbps F8-3D-C6-06-EE-BC
+
+
+
